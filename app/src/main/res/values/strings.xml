@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BTVN3</string>
+    <string name="register">Đăng Ký Tài Khoản</string>
+    <string name="name">Tên tài khoản</string>
+    <string name="name2">Nhập mật khẩu</string>
+    <string name="name3">Nhập lại mật khẩu</string>
+    <string name="name6">Yêu cầu: Tên tài khoản tối thiểu 6 ký tự và không có dấu cách Mật khẩu tối thiểu là 8 ký tự và phải trùng nhau Nếu không đúng điều kiện sẽ hiển thị lên TextView và background của edittext sẽ đổi sang màu đỏ</string>
+    <string name="error">mat khau khong trung khop</string>
+    <string name="name5">Nhập thông tin cá nhân</string>
+    <string name="phone">Nhập số điện thoại</string>
+    <string name="email">Nhập email</string>
+    <string name="fullname">Nhập tên đầy đủ</string>
+    <string name="nameCoquan">Nhập tên cơ quan</string>
+    <string name="password">Nhập mật khẩu</string>
+    <string name="text2">Yêu cầu: số điện thoại và email phải hợp lệ Mật khẩu tối thiểu là 8 ký tự Edittext nào không nhập vào thì báo lỗi Nếu không đúng điều kiện sẽ hiển thị lên TextView và background của edittext sẽ đổi sang màu đỏ</string>
+    <string name="nhapso">Nhập số</string>
+    <string name="ketqua">Kết quả</string>
+</resources>

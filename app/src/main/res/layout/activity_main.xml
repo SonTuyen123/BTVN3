@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:src="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginBottom="9dp"
+        android:text="@string/register"
+        android:textSize="23sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtT.t.k"
+        android:layout_width="match_parent"
+
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtRegister"
+        android:background="@drawable/frame_9"
+        android:hint="@string/name"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:paddingStart="10dp"
+        android:id="@+id/txtN.m.k"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#DCBB8A"
+        android:background="@drawable/frame_9"
+        android:layout_below="@+id/txtT.t.k"
+        android:layout_marginTop="13dp"
+        android:layout_marginBottom="18dp"
+        android:hint="@string/name2" />
+
+    <EditText
+
+        android:id="@+id/txtN.l.m.k"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/frame_9"
+        android:layout_below="@+id/txtN.m.k"
+        android:hint="@string/name3" />
+
+    <TextView
+        android:id="@+id/txt_error"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtN.l.m.k"
+        android:textColor="@color/red"
+        android:visibility="invisible"
+        android:text="@string/error"/>
+
+    <Button
+        android:id="@+id/btn_continue"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtN.l.m.k"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="41dp"
+        android:text="Tiếp Tục" />
+
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_continue"
+        android:text="@string/name6" />
+</RelativeLayout>

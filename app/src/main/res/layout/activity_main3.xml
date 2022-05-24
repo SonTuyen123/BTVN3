@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/txtNhapSo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame_10"
+        android:hint="@string/nhapso"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/txtNhapSo2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtNhapSo"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame_10"
+        android:hint="@string/nhapso"
+        android:paddingStart="10dp" />
+
+    <EditText
+        android:id="@+id/txtKetqua"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtNhapSo2"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/frame_10"
+        android:hint="@string/ketqua"
+        android:paddingStart="10dp" />
+
+    <Button
+        android:id="@+id/btnplus"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtKetqua"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:text="+" />
+
+    <Button
+        android:text="-"
+        android:id="@+id/btn_minus"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtKetqua"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/btnplus" />
+
+    <Button
+        android:text="*"
+        android:id="@+id/btn"
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtKetqua"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/btnplus" />
+
+    <Button
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtKetqua"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/btnplus"
+        android:text="/" />
+
+</RelativeLayout>
